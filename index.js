@@ -43,8 +43,6 @@ function showprogress(){
         const value = progressBar.dataset.progress;
         progressBar.style.opacity = 1;
         progressBar.style.width = `${value}%`;
-
-        console.log(value);
     });
 }
 
