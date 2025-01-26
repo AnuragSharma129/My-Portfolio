@@ -58,43 +58,23 @@ window.addEventListener('scroll',() => {
     const screenPos = window.innerHeight / 2;
 
     if(sectionPos < screenPos){
-        // console.log('show progress');
         showprogress();
     }
     else{
-        // console.log('hide progress');
         hideprogress();
     }
 });
 
 
 
-
-
-
-// ========== 
-// ORIGINAL TYPING ANIMATION CODE---
-//  ==========
-
-
-// var typed = new Typed('#element', {
-//     strings: ['<i>First</i>', '&amp; a second sentence.'],
-//     typeSpeed: 50,
-//   });
-
-
-
-
-
 // ==========  
-// EDITED TYPING ANIMATION CODE--
+// TYPING ANIMATION CODE--
 //  ==========
 
 var typed = new Typed('#element', {
     strings: ['Web Developer', 'Full Stack Developer'],
     typeSpeed: 50,
-    loop:true,
-    // backspeed:100,
+    loop:true
   });
 
 
