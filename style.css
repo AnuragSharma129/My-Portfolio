@@ -314,7 +314,8 @@
   }
   button:hover{
       /* background-color: ; */
-      font-size: 15px;
+/*       font-size: 15px; */
+          scale : 1.4;
   }
   button:hover a{
       color: skyblue;
